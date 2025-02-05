@@ -1,0 +1,145 @@
+.register-container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    border-radius: 10px;
+}
+
+.typewriter-container {
+    margin-top: 2rem;
+    height: 3rem;
+}
+
+.typewriter-text {
+    font-size: 2rem;
+    color: var(--primary-light);
+}
+
+body.dark-mode .register-container {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+/* Cambio: Mostrar 4 intereses por fila */
+.interests-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 elementos por fila */
+    gap: 10px; /* Espacio entre los elementos */
+    margin-top: 20px;
+}
+
+/* Reducir el tamaño de las tarjetas */
+.interest-card {
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    padding: 8px; /* Reducido el padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: var(--secondary-light);
+    color: var(--text-light);
+    text-align: center; /* Asegurar que el contenido esté centrado */
+}
+
+body.dark-mode .interest-card {
+    border-color: var(--border-dark);
+    background-color: var(--secondary-dark);
+    color: var(--text-dark);
+}
+
+body.dark-mode .interest-card.selected {
+    background-color: var(--primary-dark);
+}
+
+/* Estilo cuando una tarjeta está seleccionada */
+.interest-card.selected {
+    background-color: var(--primary-light);
+    color: white;
+}
+
+/* Reducir el tamaño del emoji */
+.interest-card span {
+    font-size: 20px; /* Reducido el tamaño del emoji */
+    margin-bottom: 5px; /* Espaciado entre el emoji y el texto */
+}
+
+/* Reducir el tamaño del texto */
+.interest-card p {
+    font-size: 12px; /* Tamaño de fuente reducido */
+    margin: 0; /* Eliminar margen adicional */
+}
+
+.error-message {
+    color: #ff6b6b;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: var(--primary-dark);
+    font-size: 16px;
+    margin-top: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.success-message button {
+    margin-top: 10px;
+    background-color: var(--primary-dark);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.success-message button:hover {
+    background-color:var(--primary-light)
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: var(--primary-dark);
+}
+
+.back-button {
+    background-color: var(--secondary-light);
+    color: var(--text-light);
+}
+
+body.dark-mode .back-button {
+    background-color: var(--secondary-dark);
+    color: var(--text-dark);
+}
+
+.back-button:hover {
+    background-color: var(--border-light);
+}
+
+body.dark-mode .back-button:hover {
+    background-color: var(--border-dark);
+}
+
+/* Responsive design: Para pantallas pequeñas, mostrar 2 elementos por fila */
+@media (max-width: 600px) {
+    .register-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .interests-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 elementos por fila en pantallas pequeñas */
+    }
+
+    .typewriter-text {
+        font-size: 1rem;
+        color: var(--primary-light);
+    }
+}

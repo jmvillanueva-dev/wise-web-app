@@ -1,0 +1,16 @@
+[
+    { "id": 1, "name": "Tecnología", "emoji": "💻", "englishName": "Technology" },
+    { "id": 2, "name": "Música", "emoji": "🎵", "englishName": "Music" },
+    { "id": 3, "name": "Viajes", "emoji": "✈️", "englishName": "Travel" },
+    { "id": 4, "name": "Deportes", "emoji": "⚽", "englishName": "Sports" },
+    { "id": 5, "name": "Cine", "emoji": "🎬", "englishName": "Movies" },
+    { "id": 6, "name": "Libros", "emoji": "📚", "englishName": "Books" },
+    { "id": 7, "name": "Cocina", "emoji": "🍳", "englishName": "Cooking" },
+    { "id": 8, "name": "Arte", "emoji": "🎨", "englishName": "Art" },
+    { "id": 9, "name": "Ciencia", "emoji": "🔬", "englishName": "Science" },
+    { "id": 10, "name": "Educación", "emoji": "🎓", "englishName": "Education" },
+    { "id": 11, "name": "Moda", "emoji": "👗", "englishName": "Fashion" },
+    { "id": 12, "name": "Juegos", "emoji": "🎮", "englishName": "Gaming" },
+    { "id": 13, "name": "Comida", "emoji": "🍔", "englishName": "Food" },
+    { "id": 14, "name": "Fotografía", "emoji": "📸", "englishName": "Photography" }
+]

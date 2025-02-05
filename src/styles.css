@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00233e;
+    color: #ffffff;
+  }
+  
+  .auth-container,
+  .reading-panel {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #12d4e4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auth-container h2,
+  .reading-panel h2 {
+    text-align: center;
+    color: #00233e;
+  }
+  
+  .auth-container input,
+  .reading-panel input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .auth-container button,
+  .reading-panel button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4cf7fd;
+    border: none;
+    border-radius: 5px;
+    color: #00233e;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover,
+  .reading-panel button:hover {
+    background-color: #fb88b5;
+  }
+  
+  .auth-container p,
+  .reading-panel p {
+    text-align: center;
+  }
+  
+  .auth-container a,
+  .reading-panel a {
+    color: #fb88b5;
+    text-decoration: none;
+  }
+  
+  .slider-container {
+    margin-top: 20px;
+  }
+  
+  .interactions button {
+    margin-top: 10px;
+  }
+  
+  .comments-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comments-section li {
+    background: #4cf7fd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
